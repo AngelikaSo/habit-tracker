@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="habbit">
+      <h3>Habbit Tracker</h3>
+      <div class="habbit-add">
+        <input type="text" placeholder="Add new habbit" />
+        <input
+          type="number"
+          class="habit-time-duration"
+          id="time-duration"
+          name="time-duration"
+          min="1"
+          step="1"
+          placeholder="30"
+        />
+        <p>min.</p>
+        <button>Add</button>
+      </div>
+      <p>calendar</p>
+      <div class="habbit-output">
+        <div class="habbit-added--label">
+          <p class="habit-added">My first habbit</p>
+          <p>15min.</p>
+        </div>
+        <div class="habbit-tracker--checkboxes">
+          <label><input type="checkbox" /><span>Mon</span></label>
+          <label><input type="checkbox" /><span>Tue</span></label>
+          <label><input type="checkbox" /><span>Wed</span></label>
+          <label><input type="checkbox" /><span>Thu</span></label>
+          <label><input type="checkbox" /><span>Fri</span></label>
+          <label><input type="checkbox" /><span>Sat</span></label>
+          <label><input type="checkbox" /><span>Sun</span></label>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
