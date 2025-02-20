@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="habbit">
-      <h3>Habbit Tracker</h3>
-      <div class="habbit-add">
-        <input type="text" placeholder="Add new habbit" />
+    <div class="content-box">
+      <h3 class="content-box-title">Habit Tracker</h3>
+      <div class="content-box-addHabit">
+        <input
+          class="content-box-addHabit--input"
+          type="text"
+          placeholder="Add new habit"
+          id="habit-input"
+        />
         <input
           type="number"
           class="habit-time-duration"
@@ -21,25 +26,27 @@
           placeholder="30"
         />
         <p>min.</p>
-        <button>Add</button>
+        <button class="content-box-addButton" id="add-habit-btn">Add</button>
       </div>
       <p>calendar</p>
-      <div class="habbit-output">
-        <div class="habbit-added--label">
-          <p class="habit-added">My first habbit</p>
-          <p>15min.</p>
-        </div>
-        <div class="habbit-tracker--checkboxes">
-          <label><input type="checkbox" /><span>Mon</span></label>
-          <label><input type="checkbox" /><span>Tue</span></label>
-          <label><input type="checkbox" /><span>Wed</span></label>
-          <label><input type="checkbox" /><span>Thu</span></label>
-          <label><input type="checkbox" /><span>Fri</span></label>
-          <label><input type="checkbox" /><span>Sat</span></label>
-          <label><input type="checkbox" /><span>Sun</span></label>
-        </div>
-      </div>
+      <ul class="habit-output" id="habit-output">
+        <!--   <li>
+          <div class="habbit-added--label">
+            <p class="habit-added">My first habbit</p>
+            <p>15min.</p>
+          </div>
+          <div class="habbit-tracker--checkboxes">
+            <label><input type="checkbox" /><span>Mon</span></label>
+            <label><input type="checkbox" /><span>Tue</span></label>
+            <label><input type="checkbox" /><span>Wed</span></label>
+            <label><input type="checkbox" /><span>Thu</span></label>
+            <label><input type="checkbox" /><span>Fri</span></label>
+            <label><input type="checkbox" /><span>Sat</span></label>
+            <label><input type="checkbox" /><span>Sun</span></label>
+          </div>
+        </li>-->
+      </ul>
     </div>
+    <script src="main.js"></script>
   </body>
-  <script src="main.js"></script>
 </html>
