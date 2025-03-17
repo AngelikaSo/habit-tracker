@@ -22,6 +22,15 @@ input[type="number"] {
   border-radius: 30px;
 }
 
+.content-box-addHabit {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 30px;
+  width: 450px;
+}
+
 .habit-time-duration {
   width: 30px;
   height: 15px;
@@ -53,12 +62,29 @@ input[type="number"] {
   justify-content: space-between;
 }
 
+.content-box-calendar {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 30px;
+  width: 450px;
+}
+
+.habit-output-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
 .habit-output {
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 15px;
   margin: 10px;
   border-radius: 30px;
+  width: 450px;
+  height: 590px;
 }
 
 .habit-tracker--checkboxes {
